@@ -1,8 +1,8 @@
 'use strict';
 
-require('dotenv').config();
-
 //Application Dependencies
+require('dotenv').config();
+const superagent = require('superagent');
 const express = require('express');
 const cors = require('cors');
 
